@@ -1,0 +1,85 @@
+server:
+  port: 8090
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+#----------------------------------------数据源----------------------------------------------------
+spring:
+  mail:
+    host: smtp.qq.com
+    protocol: smtp
+    username: ${dev.email.username}
+    password: ${dev.email.password}
+    default-encoding: utf-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          starttls:
+            enable: true
+            required: true
+    port: 465
+  profiles:
+    active: prod
+  config:
+    import: classpath:application-dev.yml
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${dev.datasource.url}:3306/gxuicpc
+    username: ${dev.datasource.username}
+    password: ${dev.datasource.password}
+  #-------------------------------------redis--------------------------------------
+  data:
+    redis:
+      host: ${dev.redis.url}
+      port: 6379
+      password: ${dev.redis.password}
+      database: 7
+      connect-timeout: 5s
+      timeout: 5s
+      lettuce:
+        pool:
+          min-idle: 0
+          max-idle: 8
+          max-active: 8
+          max-wait: -1ms
+#----------------------------------------默认密码--------------------------------------------
+gxuicpc:
+  default-password: ${dev.gxuicpc.default-password}
+#----------------------------------------jwt-----------------------------------------------
+jwt:
+  secret: ${dev.jwt.secret} #jwt密钥
+  timeout: 30 #过期时间，分钟
+#-------------------------------------swagger------------------------------------------
+springdoc:
+  # 配置Swagger UI的访问路径和排序方式
+  swagger-ui:
+    path: /swagger-ui.html  # Swagger UI的访问路径
+    tags-sorter: alpha      # 按字母顺序排序标签
+    operations-sorter: alpha  # 按字母顺序排序操作
+  # 配置API文档的访问路径
+  api-docs:
+    path: /v3/api-docs  # API文档的访问路径
+  # 配置API分组，用于组织和管理API
+  group-configs:
+    - group: 'default'   # API分组名称
+      paths-to-match: '/**'  # 匹配所有路径
+      packages-to-scan: manage.gxuicpc.controller  # 扫描的包，用于自动发现API
+#--------------------------------------knife4j----------------------------------
+# knife4j的增强配置，不需要增强可以不配（详细版见下小节）
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+#--------------------------------------mybatis-----------------------------------
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #控制台打印sql
+  mapper-locations: classpath:/mapper/*.xml
+logging:
+  config: classpath:logback.xml

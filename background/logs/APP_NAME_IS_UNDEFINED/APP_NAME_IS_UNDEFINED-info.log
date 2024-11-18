@@ -1,0 +1,157 @@
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:08.923 INFO 8136 [main] manage.gxuicpc.GxuicpcApplication Starting GxuicpcApplication using Java 22.0.2 with PID 8136 (C:\Users\18725\Desktop\集训队管理系统开发\manage\background\gxuicpc\target\classes started by 18725 in C:\Users\18725\Desktop\集训队管理系统开发\manage\background)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:08.930 INFO 8136 [main] manage.gxuicpc.GxuicpcApplication The following 1 profile is active: "dev"
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:09.718 INFO 8136 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:09.722 INFO 8136 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:09.749 INFO 8136 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:10.501 INFO 8136 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8090 (http)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:10.511 INFO 8136 [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8090"]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:10.516 INFO 8136 [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:10.516 INFO 8136 [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.28]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:10.594 INFO 8136 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:10.594 INFO 8136 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1631 ms
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:11.769 INFO 8136 [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8090"]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:11.785 INFO 8136 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8090 (http) with context path '/'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:25:11.795 INFO 8136 [main] manage.gxuicpc.GxuicpcApplication Started GxuicpcApplication in 3.24 seconds (process running for 4.165)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:34.589 INFO 8136 [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:34.590 INFO 8136 [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:34.592 INFO 8136 [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:34.718 INFO 8136 [http-nio-8090-exec-1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:35.072 INFO 8136 [http-nio-8090-exec-1] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ba2c592
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:35.074 INFO 8136 [http-nio-8090-exec-1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:35.112 INFO 8136 [http-nio-8090-exec-1] manage.gxuicpc.controller.LoginController the user: null want to login
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:35.183 INFO 8136 [http-nio-8090-exec-1] manage.gxuicpc.service.impl.UserServiceImpl The query user is: User(id=1, account=chenyyy28, password=chen0603, username=陈佳林, email=1872535811@qq.com, ranking=114514, roleId=0, createTime=2024-10-25T08:37:19, updateTime=2024-10-25T08:37:21)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:35.191 INFO 8136 [http-nio-8090-exec-1] manage.gxuicpc.controller.LoginController login successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:35.269 INFO 8136 [http-nio-8090-exec-2] manage.gxuicpc.controller.RouteController the user: 1 will get the routes
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:36.210 INFO 8136 [http-nio-8090-exec-3] manage.gxuicpc.controller.AccountController The user: 1 get the accounts
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:36.210 INFO 8136 [http-nio-8090-exec-5] manage.gxuicpc.controller.ProblemController the user: 1 want to get the problem_pass
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:36.214 INFO 8136 [http-nio-8090-exec-3] manage.gxuicpc.service.impl.AccountServiceImpl get the account is :[Account(userId=1, uid=chenyyy28, platform=codeforces), Account(userId=1, uid=chenyyy28, platform=vjudge), Account(userId=1, uid=667348600, platform=nowcoder), Account(userId=1, uid=815499, platform=luogu)]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:36.216 INFO 8136 [http-nio-8090-exec-4] manage.gxuicpc.controller.UnContestController the user: 1 want to get the un_contest by:1_5_1_null
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:36.976 INFO 8136 [http-nio-8090-exec-6] manage.gxuicpc.controller.ContestController The user: 1 will get the contests
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:37.281 INFO 8136 [http-nio-8090-exec-7] manage.gxuicpc.controller.TimeController the user: 1 will get the time_interval
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:44.006 INFO 8136 [http-nio-8090-exec-8] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:48.340 INFO 8136 [http-nio-8090-exec-9] manage.gxuicpc.controller.ContestController The user: 1 will get the contests
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:26:48.654 INFO 8136 [http-nio-8090-exec-10] manage.gxuicpc.controller.TimeController the user: 1 will get the time_interval
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:02.906 INFO 8136 [http-nio-8090-exec-1] manage.gxuicpc.controller.ContestController the user: 1 will send the email of contest: 4
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:02.909 INFO 8136 [http-nio-8090-exec-1] manage.gxuicpc.service.impl.ContestServiceImpl -1
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:02.912 INFO 8136 [http-nio-8090-exec-1] manage.gxuicpc.service.impl.ContestServiceImpl [3361642978@qq.com, 3172443809@qq.com, 809219978@qq.com, 124sdfaf1, 431sqff23, 1872535811@qq.com, 2313421312]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:14.822 INFO 8136 [Thread-2] manage.gxuicpc.common.mail.SendMailTask send the email which subject is 测试邮件 to 3172443809@qq.com succeed
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:14.837 INFO 8136 [Thread-3] manage.gxuicpc.common.mail.SendMailTask send the email which subject is 测试邮件 to 809219978@qq.com succeed
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:14.854 INFO 8136 [Thread-6] manage.gxuicpc.common.mail.SendMailTask send the email which subject is 测试邮件 to 1872535811@qq.com succeed
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:14.893 INFO 8136 [Thread-1] manage.gxuicpc.common.mail.SendMailTask send the email which subject is 测试邮件 to 3361642978@qq.com succeed
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:51.217 INFO 8136 [http-nio-8090-exec-2] manage.gxuicpc.controller.TimeController the user: 1 will get the time_interval
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:51.533 INFO 8136 [http-nio-8090-exec-5] manage.gxuicpc.controller.RankController the user: 1 want to get the active_rank
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:53.334 INFO 8136 [http-nio-8090-exec-3] manage.gxuicpc.controller.TimeController the user: 1 will get the time_interval
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:27:53.561 INFO 8136 [http-nio-8090-exec-4] manage.gxuicpc.controller.RankController the user: 1 want to get the prepare_rank
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:40:38.716 INFO 8136 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 12:40:38.722 INFO 8136 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:29.402 INFO 39272 [main] manage.gxuicpc.GxuicpcApplication Starting GxuicpcApplication using Java 22.0.2 with PID 39272 (C:\Users\18725\Desktop\集训队管理系统开发\manage\background\gxuicpc\target\classes started by 18725 in C:\Users\18725\Desktop\集训队管理系统开发\manage\background)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:29.404 INFO 39272 [main] manage.gxuicpc.GxuicpcApplication The following 1 profile is active: "prod"
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.136 INFO 39272 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.138 INFO 39272 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.162 INFO 39272 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.884 INFO 39272 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8090 (http)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.893 INFO 39272 [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8090"]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.896 INFO 39272 [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.897 INFO 39272 [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.28]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.969 INFO 39272 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:30.969 INFO 39272 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1533 ms
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:32.247 INFO 39272 [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8090"]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:32.267 INFO 39272 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8090 (http) with context path '/'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:51:32.278 INFO 39272 [main] manage.gxuicpc.GxuicpcApplication Started GxuicpcApplication in 3.274 seconds (process running for 4.243)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:14.109 INFO 39272 [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:14.109 INFO 39272 [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:14.110 INFO 39272 [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:20.567 INFO 39272 [http-nio-8090-exec-2] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:43.284 INFO 32488 [main] manage.gxuicpc.GxuicpcApplication Starting GxuicpcApplication using Java 22.0.2 with PID 32488 (C:\Users\18725\Desktop\集训队管理系统开发\manage\background\gxuicpc\target\classes started by 18725 in C:\Users\18725\Desktop\集训队管理系统开发\manage\background)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:43.286 INFO 32488 [main] manage.gxuicpc.GxuicpcApplication The following 1 profile is active: "dev"
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:43.895 INFO 32488 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:43.897 INFO 32488 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:43.921 INFO 32488 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:44.589 INFO 32488 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port 8090 (http)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:44.598 INFO 32488 [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8090"]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:44.601 INFO 32488 [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:44.601 INFO 32488 [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.28]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:44.669 INFO 32488 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:44.670 INFO 32488 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1354 ms
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:45.762 INFO 32488 [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8090"]
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:45.777 INFO 32488 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port 8090 (http) with context path '/'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:45.786 INFO 32488 [main] manage.gxuicpc.GxuicpcApplication Started GxuicpcApplication in 2.828 seconds (process running for 3.565)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:50.746 INFO 32488 [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:50.746 INFO 32488 [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:50.747 INFO 32488 [http-nio-8090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:50.850 INFO 32488 [http-nio-8090-exec-1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:51.133 INFO 32488 [http-nio-8090-exec-1] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19571903
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:51.135 INFO 32488 [http-nio-8090-exec-1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:51.168 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.controller.LoginController the user: null want to login
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:51.217 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.service.impl.UserServiceImpl The query user is: User(id=1, account=chenyyy28, password=chen0603, username=陈佳林, email=1872535811@qq.com, ranking=114514, roleId=0, createTime=2024-10-25T08:37:19, updateTime=2024-10-25T08:37:21)
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:51.221 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.controller.LoginController login successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:51.587 INFO 32488 [http-nio-8090-exec-4] manage.gxuicpc.controller.RouteController the user: 1 will get the routes
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:52.050 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.controller.ProblemController the user: 1 want to get the problem_pass
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:52.352 INFO 32488 [http-nio-8090-exec-2] manage.gxuicpc.controller.AccountController The user: 1 get the accounts
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:52.356 INFO 32488 [http-nio-8090-exec-5] manage.gxuicpc.controller.UnContestController the user: 1 want to get the un_contest by:1_5_1_null
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:54.199 INFO 32488 [http-nio-8090-exec-6] manage.gxuicpc.controller.ContestController The user: 1 will get the contests
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:54.332 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.controller.TimeController the user: 1 will get the time_interval
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:52:55.538 INFO 32488 [http-nio-8090-exec-8] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:06.952 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 13
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:06.957 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:06.980 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:07.664 INFO 32488 [http-nio-8090-exec-9] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:10.955 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 21
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:10.956 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:10.960 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:11.169 INFO 32488 [http-nio-8090-exec-4] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:14.005 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 20
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:14.006 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:14.010 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:14.160 INFO 32488 [http-nio-8090-exec-2] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:16.222 INFO 32488 [http-nio-8090-exec-5] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 19
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:16.222 INFO 32488 [http-nio-8090-exec-5] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:16.225 INFO 32488 [http-nio-8090-exec-5] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:16.377 INFO 32488 [http-nio-8090-exec-6] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:18.282 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 18
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:18.283 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:18.288 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:18.438 INFO 32488 [http-nio-8090-exec-8] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:20.100 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 17
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:20.101 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:20.104 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:20.264 INFO 32488 [http-nio-8090-exec-9] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:22.314 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 16
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:22.315 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:22.317 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:22.469 INFO 32488 [http-nio-8090-exec-4] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:25.579 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 15
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:25.581 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:25.584 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:25.741 INFO 32488 [http-nio-8090-exec-2] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:27.949 INFO 32488 [http-nio-8090-exec-5] manage.gxuicpc.controller.UserController the user: 1 want to delete the list of user: 14
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:27.950 INFO 32488 [http-nio-8090-exec-5] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:27.953 INFO 32488 [http-nio-8090-exec-5] manage.gxuicpc.service.impl.AccountServiceImpl delete account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:28.118 INFO 32488 [http-nio-8090-exec-6] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.327 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.common.excel.UserListener the user: 陈佳林 is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.331 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.340 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:data:account:1:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.345 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.service.impl.AccountServiceImpl add account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.348 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.common.excel.UserListener the user: cs is not exit, it will be insert
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.350 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.353 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.utils.RedisUtils key pattern:gxuicpc:data:account:1:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.356 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.service.impl.AccountServiceImpl add account successfully
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.358 INFO 32488 [http-nio-8090-exec-7] manage.gxuicpc.common.excel.UserListener the user: tt is not exit, it will be insert
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:53:35.815 INFO 32488 [http-nio-8090-exec-8] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:23.410 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.common.excel.UserListener the user: 陈佳林 is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:23.414 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.common.excel.UserListener the user: cs is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:23.417 INFO 32488 [http-nio-8090-exec-10] manage.gxuicpc.common.excel.UserListener the user: tt is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:23.895 INFO 32488 [http-nio-8090-exec-9] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:52.686 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.common.excel.UserListener the user: 陈佳林 is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:52.689 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.common.excel.UserListener the user: cs is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:52.693 INFO 32488 [http-nio-8090-exec-1] manage.gxuicpc.common.excel.UserListener the user: tt is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 13:54:53.176 INFO 32488 [http-nio-8090-exec-4] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:00:00.008 INFO 32488 [scheduling-1] manage.gxuicpc.common.RankTask 开始更新榜单
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:00:00.034 INFO 32488 [scheduling-1] manage.gxuicpc.common.RankTask 开始更新榜单
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:00:00.065 INFO 32488 [scheduling-1] manage.gxuicpc.utils.RedisUtils key pattern:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:04:45.102 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.common.excel.UserListener the user: 陈佳林 is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:04:45.105 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.common.excel.UserListener the user: cs is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:04:45.107 INFO 32488 [http-nio-8090-exec-3] manage.gxuicpc.common.excel.UserListener the user: tt is exited, it will be update
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:04:45.518 INFO 32488 [http-nio-8090-exec-2] manage.gxuicpc.controller.UserController the user: 1 get the list of user
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:05:00.282 INFO 32488 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-10 14:05:00.289 INFO 32488 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.

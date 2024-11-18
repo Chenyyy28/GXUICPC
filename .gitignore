@@ -1,0 +1,5 @@
+*.yml
+docker-componse.yml
+init.sql
+!application.yml
+target/

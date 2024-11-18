@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="manage.gxuicpc.mapper.UnContestMapper">
+    <select id="getUnContestList" resultType="manage.gxuicpc.entity.UnContest">
+        select *
+        from un_contest
+        <where>
+            <if test="userId!=null">
+                and user_id = #{userId}
+            </if>
+            <if test="contestName!=null">
+                and contest_name like #{contestName}
+            </if>
+        </where>
+    </select>
+</mapper>

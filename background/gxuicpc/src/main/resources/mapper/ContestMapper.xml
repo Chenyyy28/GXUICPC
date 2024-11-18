@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="manage.gxuicpc.mapper.ContestMapper">
+    <select id="getContest" resultType="manage.gxuicpc.entity.vo.ContestVO">
+        select c.id,c.description,c.url,c.author,
+        c.start_time,c.end_time,c.role_id,c.weight,unix_timestamp(c.create_time)*1000 as
+        create_time
+        from contest c
+        <where>
+            <if test="contestName!=null">
+                and description like #{contestName}
+            </if>
+            <if test="roleId==1 || roleId == 2">
+                and (c.role_id = 1 or c.role_id = -1)
+            </if>
+            <if test="roleId == 3">
+                and (c.role_id = 2 or c.role_id = -1)
+            </if>
+        </where>
+    </select>
+    <select id="getContestByTime" resultType="manage.gxuicpc.entity.Contest">
+        select c.id,c.description,c.url,
+        c.start_time,c.end_time,c.role_id,c.weight,c.create_time as
+        create_time
+        from contest c
+        <where>
+            <if test="roleId == 1">
+                and (c.role_id = 1 or c.role_id = -1)
+            </if>
+            <if test="roleId == 3">
+                and (c.role_id = 2 or c.role_id = -1)
+            </if>
+            and (c.start_time between #{start} and #{end})
+            and (c.end_time between #{start} and #{end})
+        </where>
+    </select>
+</mapper>

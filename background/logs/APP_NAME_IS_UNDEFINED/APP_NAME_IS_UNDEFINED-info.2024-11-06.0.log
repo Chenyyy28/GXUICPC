@@ -1,0 +1,5 @@
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-06 00:00:00.042 INFO 4112 [scheduling-1] manage.gxuicpc.common.RankTask 开始更新榜单
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-06 00:00:00.099 INFO 4112 [scheduling-1] manage.gxuicpc.common.RankTask 开始更新榜单
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-06 00:00:00.109 INFO 4112 [scheduling-1] manage.gxuicpc.utils.RedisUtils key pattern:*
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-06 23:30:00.767 INFO 4112 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[APP_NAME_IS_UNDEFINED:0.0.0.0:8090] [,] 2024-11-06 23:30:00.791 INFO 4112 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.

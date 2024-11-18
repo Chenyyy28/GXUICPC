@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="manage.gxuicpc.mapper.UserMapper">
+    <select id="getAll" resultType="manage.gxuicpc.entity.User">
+        select *
+        from user
+        <where>
+            <if test="username!=null">
+                and username like #{username}
+            </if>
+            <if test="role!=null">
+                and role_id like #{role}
+            </if>
+        </where>
+    </select>
+    <select id="getUserEmail" resultType="java.lang.String">
+        select email
+        from user
+        <where>
+            <if test="role == -1">
+                and (role_id = 1 or role_id = 3)
+            </if>
+            <if test="role == 1">
+                and role_id = #{role}
+            </if>
+            <if test="role == 2">
+                and role_id = 3
+            </if>
+        </where>
+    </select>
+</mapper>
